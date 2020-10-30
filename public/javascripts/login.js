@@ -30,7 +30,7 @@
                             loginForm.password.value = "";
                             $('#loginWarning').show();
                         }else {
-                            window.location.href = "/signin";
+                            window.location.href = "/";
                         }
                     }
                 })
