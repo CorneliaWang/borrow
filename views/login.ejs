@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/public/stylesheets/login.css">
+</head>
+<body>
+<div class="container main">
+    <div class="header">
+        <a href="/">
+            <img src="/public/images/ER.png" height="44" width="302"/>
+        </a>
+        <div class="warning">
+            <h5 id="loginWarning" class="text-danger" style="text-align:center;display: none">Invalid username or password!</h5>
+        </div>
+    </div>
+    <form name="signin" method="post">
+        <div class="form-group">
+            <label>用户名</label>
+            <input type="text" id="" placeholder="请输入用户名" name="username" class="form-control" autofocus required>
+        </div>
+        <div class="form-group">
+            <label>密码</label>
+            <input type="password" id="" placeholder="请输入密码" name="password" class="form-control" required>
+        </div>
+        <div class="checkbox">
+            <input type="checkbox"> 记住我
+        </div>
+        <button type="submit" class="btn btn-success btn-block">登录</button>
+    </form>
+    <div class="tosignup">
+        <a href="/signup">注册账号>></a>
+    </div>
+</div>
+<script src="/node_modules/jquery/dist/jquery.js"></script>
+<script src="/public/javascripts/login.js"></script>
+</body>
+</html>

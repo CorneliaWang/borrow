@@ -1,0 +1,21 @@
+.main {
+  margin-top: 50px;
+  width:340px
+}
+h1{
+  font-size: 22px;
+  text-align: center;
+}
+.main img{
+  margin-bottom: 10px;
+}
+.main form {
+  padding: 20px;
+  margin-bottom: 15px;
+  border: 1px solid #d8dee2;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.tosignup a{
+  float: right;
+}
